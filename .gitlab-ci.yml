@@ -1,0 +1,17 @@
+stages:
+  - building
+
+building:
+  image: monachus/hugo
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+  stage: building
+  script:
+  - cd ./website
+  - hugo
+  - touch public/timestamp
+  - date +%s > public/timestamp
+  artifacts:
+    paths:
+    - website/public
+
