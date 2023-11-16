@@ -2,7 +2,9 @@ stages:
   - building
 
 building:
-  image: monachus/hugo
+  tags:
+    - hugo
+  image: registry.gitlab.com/pages/hugo/hugo_extended:latest
   variables:
     GIT_SUBMODULE_STRATEGY: recursive
   stage: building
@@ -14,4 +16,6 @@ building:
   artifacts:
     paths:
     - website/public
+  rules:
+  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
