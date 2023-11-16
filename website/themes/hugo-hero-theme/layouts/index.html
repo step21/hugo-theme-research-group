@@ -1,0 +1,159 @@
+{{ define "title" }}{{ .Site.Title }}{{ end}}
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-home{{ end }}
+{{ define "header_classes" }}header-transparent{{ end }}
+
+{{ define "meta_tags" }}
+<meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
+<meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" />
+<meta property="og:type" content="{{ .Site.Params.homepage_meta_tags.meta_og_type }}" />
+<meta property="og:url" content="{{ .Site.Params.homepage_meta_tags.meta_og_url }}" />
+<meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image }}" />
+<meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
+{{ end }}
+
+{{ define "main" }}
+
+{{ partial "hero-image-fullscreen.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
+
+{{ $headless := .Site.GetPage "/homepage" }}
+{{ $reusablePages := $headless.Resources.ByType "page" }}
+{{ $reusablePages := sort $reusablePages ".Params.weight" }}
+{{ range first 1 $reusablePages }}
+<div id="home" class="strip bg-cover bg-position-top bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
+  <div class="container pt-17 pb-17">
+    <div class="row">
+      <div class="text-justify-here col-12 col-md-6 offset-md-6">
+        <h2 class="text-primary">{{ .Title }}</h2>
+        <p>{{ .Content }}</p>
+				{{if and (isset .Params "buttonLink") (ne .Params.buttonLink "") -}}
+        <a class="button" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+				{{end}}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ range first 1 (after 1 $reusablePages) }}
+<div id="home" class="strip bg-cover bg-primary bg-position-top bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
+  <div class="container pt-17 pb-17">
+    <div class="row">
+      <div class="text-justify-here col-12 col-md-6 text-white">
+        <h2 class="">{{ .Title }}</h2>
+        <p>{{ .Content }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ range first 1 (after 2 $reusablePages) }}
+<div id="home" class="strip bg-secondary bg-cover bg-position-top bg-overlay" style="background-image: url('{{ .Params.background | relURL }}');">
+  <div class="container pt-17 pb-17">
+    <div class="row">
+      <div class="text-white text-justify-here col-12 col-md-12">
+        <h2 class="">{{ .Title }}</h2>
+        <p>{{ .Content }}</p>
+				{{if and (isset .Params "buttonLink") (ne .Params.buttonLink "") -}}
+        <a class="button button-white" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+				{{end}}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+
+{{ $publications := where (where .Site.RegularPages "Type" "publications") ".Params.featured" true }}
+{{if gt (len $publications) 0}}
+<div id="publikationen" class="container publications pt-8 pb-8 pb-md-14 pt-md-14">
+  <div class="row justify-content-start">
+    <div class="col-12">
+      <h2 class="text-center mb-3">Unsere Veröffentlichungen</h2>
+    </div>
+  </div>
+{{ range (sort $publications ".Params.date" "desc") }}
+  <div class="row publication-row justify-content-start">
+    <div class="col-1">
+        <h4>{{ .Params.year }}</h4>
+        <p> {{ .Params.month | truncate 3 "."}} </p>
+    </div>
+    <div class="col-11">
+        <div class="publication">
+          <div class="publication-content">
+            <h4 class="publication-title">
+                <a href="{{ .Params.link }}">{{ .Title }}</a>
+            </h4>
+            <p class="publication-authors">{{ .Params.author }}</p>
+            <p class="publication-information">
+                <span>{{ .Params.conference }}</span>,
+                {{ .Params.address }},
+                {{if .Params.conferencedate}}{{ .Params.conferencedate }},{{end}}
+                {{ .Params.year }}
+                {{ if eq .Params.insubmission true }}[In Submission]{{ end }}.
+            </p>
+          </div>
+        </div>
+    </div>
+  </div>
+{{ end }}
+</div>
+{{end}}
+
+{{ $partner := where (where .Site.RegularPages "Type" "partner") ".Params.featured" true }}
+{{if gt (len $partner) 0}}
+<div id="partner" class="strip bg-secondary-light bg-cover bg-position-top bg-overlay" style="">
+<div class="container partners pt-8 pb-8 pb-md-14 pt-md-14">
+  <div class="row justify-content-start">
+    <div class="col-12">
+      <h2 class="text-center mb-3">Die Projektpartner</h2>
+    </div>
+  </div>
+  <div class="row publication-row justify-content-start">
+    {{ range (sort $partner ".Params.date") }}
+    <div class="col-6">
+        <div class="partner-box">
+            <div class="partner-box-image">
+                <img src="{{ .Site.BaseURL }}{{ .Params.logo}}" />
+            </div>
+            <h4>{{ .Params.name }}</h4>
+            <a href="{{ .Params.link }}">Website</a>
+        </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+</div>
+{{end}}
+
+{{ range last 1 (after 1 $reusablePages) }}
+<div id="kontakt" class="strip bg-primary bg-cover bg-position-top bg-overlay" style='background-image: url("{{ .Params.background | relURL }}");'>
+  <div class="container pt-8 pb-8 pb-md-12 pt-md-12">
+    <div class="row">
+      <div class="col-12 col-md-5 text-white">
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Content | safeHTML}}</p>
+        <a class="button button-white" href="{{ .Params.buttonLink }}">{{ .Params.button }}</a>
+      </div>
+			{{if and (isset .Params "credittext") (ne .Params.credittext "") -}}
+      <div class="col-12 col-md-3 offset-md-1 text-white">
+        <p>{{ .Params.credittext | safeHTML}}</p>
+        <a href="{{ .Params.creditlink }}"><img style="max-width: 100%" src="{{ .Params.creditimage | relURL }}"/></a>
+			{{end}}
+      </div>
+      {{if and (isset .Params "credittext2") (ne .Params.credittext2 "") -}}
+      <div class="col-12 col-md-3 text-white">
+        <p>{{ .Params.credittext2 | safeHTML}}</p>
+        <a href="{{ .Params.creditlink2 }}"><img style="max-width: 100%" src="{{ .Params.creditimage2 | relURL }}"/></a>
+			{{end}}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ end }}
+
+{{ define "footer_js" }}
+{{ end }}
