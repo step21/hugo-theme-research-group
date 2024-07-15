@@ -14,7 +14,7 @@ creditimage2: 'images/logo_eu_DE_Funded_by_NextGenEU_vert_RGB_NEG.png'
 
 Haben Sie Interesse an weiteren Information zu unserem Forschungsprojekt? Dann freuen wir uns, wenn Sie uns kontaktieren. Senden Sie uns dazu am Besten eine E-Mail.
 
-**Ansprechpartnerin:** Marc Ohm  
+**Ansprechpartner:** Marc Ohm  
 **Telefon:** 0228 73-60531  
 **E-Mail:** ohm@cs.uni-bonn.de    
 
