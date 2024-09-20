@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: Ueber
 date: 2022-10-24
 type: landing
 
@@ -8,18 +8,17 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        DROPS Forschungsprojekt
       image:
-        filename: welcome.jpg
+        filename: trust.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        Forschungsprojekt DROPS - Datentreuhand-Modul zum Präventivenschutz vor Identitätsdatenmissbrauch
   
   - block: collection
     content:
-      title: Latest News
+      title: Neuigkeiten
       subtitle:
       text:
       count: 5
@@ -45,7 +44,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: coders.jpg
+          filename: konzept.png
           filters:
             brightness: 1
           parallax: false
@@ -58,12 +57,12 @@ sections:
 
   - block: collection
     content:
-      title: Latest Preprints
+      title: Veroeffentlichungen
       text: ""
       count: 5
       filters:
         folders:
-          - publication
+          - veroeffentlichungen
         publication_type: 'article'
     design:
       view: citation
@@ -74,7 +73,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./team/" cta_text="Das sind wir →" %}}
     design:
       columns: '1'
 ---
