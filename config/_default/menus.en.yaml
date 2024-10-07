@@ -4,24 +4,25 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Über uns
-    url: ueber
+# about could just link to main page?
+  - name: About
+    url: about
     weight: 10
-  - name: Logbuch
-    url: logbuch
+  - name: Logbook
+    url: logbook
     weight: 20
   - name: Team
     url: team
     weight: 30
-  - name: Veranstaltungen
-    url: veranstaltungen
+  - name: Events
+    url: events
     weight: 40
-  - name: Veröffentlichungen
-    url: veroeffentlichungen
+  - name: Publications
+    url: publications
     weight: 50
-  - name: Kontakt
-    url: kontakt
+  - name: Contact
+    url: contact
     weight: 60
-  - name: Impressum & Recht
+  - name: Imprint & Legal
     url: legal
     weight: 70

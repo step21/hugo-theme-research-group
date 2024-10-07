@@ -44,7 +44,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: "matthew-henry-fPxOowbR6ls-unsplash.jpg"
+          filename: matthew-henry-fPxOowbR6ls-unsplash.jpg
           filters:
             brightness: 1
           parallax: false

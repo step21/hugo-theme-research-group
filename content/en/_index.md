@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: Ueber
+title: About
 date: 2022-10-24
 type: landing
 
@@ -8,17 +8,17 @@ sections:
   - block: hero
     content:
       title: |
-        DROPS Forschungsprojekt
+        DROPS Research Project
       image:
         filename: trust.jpg
       text: |
         <br>
         
-        Forschungsprojekt DROPS - Datentreuhand-Modul zum Präventivenschutz vor Identitätsdatenmissbrauch
+        Research Project DROPS - Data escrow module for the protection of identity data against misuse
   
   - block: collection
     content:
-      title: Neuigkeiten
+      title: News
       subtitle:
       text:
       count: 5
@@ -57,12 +57,12 @@ sections:
 
   - block: collection
     content:
-      title: Veroeffentlichungen
+      title: Publications
       text: ""
       count: 5
       filters:
         folders:
-          - veroeffentlichungen
+          - publications
         publication_type: 'article'
     design:
       view: citation

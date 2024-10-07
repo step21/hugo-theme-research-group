@@ -12,7 +12,7 @@ baseURL: 'https://itsec.cs.uni-bonn.de/drops' # Website URL
 
 defaultContentLanguage: de
 hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 removePathAccents: true
 
 ############################
