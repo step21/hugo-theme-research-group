@@ -23,5 +23,5 @@ main:
     url: kontakt
     weight: 60
   - name: Impressum & Recht
-    url: legal
+    url: impressum
     weight: 70
