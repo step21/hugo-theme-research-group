@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: About
+title: 
 date: 2022-10-24
 type: landing
 
@@ -68,12 +68,12 @@ sections:
       view: citation
       columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./team/" cta_text="Das sind wir →" %}}
-    design:
-      columns: '1'
+  #- block: markdown
+  #  content:
+  #    title:
+  #    subtitle:
+  #    text: |
+  #      {{% cta cta_link="./team/" cta_text="Das sind wir →" %}}
+  #  design:
+  #    columns: '1'
 ---
