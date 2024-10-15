@@ -10,7 +10,7 @@ de:
 # Uncomment the lines below to configure your website in a second language.
 en:
   contentDir: content/en
-  title: English website title
+  title: DROPS Research Project
   params:
     description: English site description
 #  menu:

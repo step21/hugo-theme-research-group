@@ -13,9 +13,9 @@ main:
   - name: Team
     url: team
     weight: 30
-  - name: Veranstaltungen
-    url: veranstaltungen
-    weight: 40
+  #- name: Veranstaltungen
+  #  url: veranstaltungen
+  #  weight: 40
   - name: Veröffentlichungen
     url: veroeffentlichungen
     weight: 50

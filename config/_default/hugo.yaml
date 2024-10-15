@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: DROPS # Website name
+title: DROPS Forschungsprojekt # Website name
 baseURL: 'https://itsec.cs.uni-bonn.de/drops' # Website URL
 
 ############################
