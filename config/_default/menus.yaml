@@ -4,15 +4,15 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Über uns
-    url: ueber
-    weight: 10
+  #- name: Über uns
+  #  url: ueber
+  #  weight: 10
   - name: Logbuch
     url: logbuch
     weight: 20
-  - name: Team
-    url: team
-    weight: 30
+  #- name: Team
+  #  url: team
+  #  weight: 30
   #- name: Veranstaltungen
   #  url: veranstaltungen
   #  weight: 40
