@@ -49,7 +49,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: contact.jpg
+          filename: contact-us-rafiki.svg
           filters:
             brightness: 1
           parallax: false
