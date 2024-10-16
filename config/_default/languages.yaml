@@ -12,9 +12,5 @@ en:
   contentDir: content/en
   title: DROPS Research Project
   params:
-    description: English site description
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+    description: The DROPS Research Project
+
