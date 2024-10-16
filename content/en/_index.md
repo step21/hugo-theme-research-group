@@ -51,6 +51,7 @@ sections:
           position: center
           size: cover
           text_color_light: true
+          caption: 'Bild von Matthew Henry auf Unsplash https://unsplash.com/de/fotos/zwei-frauen-mit-blick-auf-die-uberwachungskamera-oben-auf-der-struktur-montiert-fPxOowbR6ls'
       spacing:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
