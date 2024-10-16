@@ -1,15 +1,30 @@
 {{ $UBOImage := resources.GetMatch "media/partner/uni-bonn.jpg" }}
 {{ $KITImage := resources.GetMatch "media/partner/kit.png" }}
-{{ $EUImage := resources.GetMatch "media/partner/eu_funded.png" }}
-{{ $BMBFImage := resources.GetMatch "media/partner/bmbf.jpg" }}
+{{ $EUImage := resources.GetMatch "media/partner/eu_funded_smaller.png" }}
+{{ $BMBFImage := resources.GetMatch "media/partner/bmbf_internet_small.png" }}
 
 
-<p id="partners" class="d-flex justify-content-center">
-  <img class="partner-logo" src="{{ $UBOImage.RelPermalink }}"  />
+<!-- <p id="partners" class="partner-container justify-content-center"> -->
+  
+  <h2>Die Projektpartner:</h2>
+  <div class="partner-container">
+  <div class="partner-block"><img class="partner-logo" src="{{ $UBOImage.RelPermalink }}"  /><span class="partner-desc">Rheinische Friedrich-Wilhelms-Universität Bonn: Institut für Informatik – AG IT-Sicherheit</span></div>
+  <div class="partner-block">
   <img class="partner-logo" src="{{ $KITImage.RelPermalink }}" />
-  <img class="partner-logo" src="{{ $EUImage.RelPermalink }}" />
-  <img class="partner-logo" src="{{ $BMBFImage.RelPermalink }}" />
-</p>
+  <span class="partner-desc">Karlsruher Institut für Technologie: Zentrum für Angewandte Rechtswissenschaft (ZAR) - Immaterialgüterrechte in verteilten Informationsinfrastrukturen</span>
+  </div>
+</div>
+<!-- <p id="funders" class="d-flex justify-content-center"> -->
+  <h2>Gefördert von:</h2>
+  <div class="funder-container">
+  <div class="funder-block">
+  <img class="funder-logo" src="{{ $BMBFImage.RelPermalink }}" />
+  </div>
+  <div class="funder-block">
+  <img class="funder-logo" src="{{ $EUImage.RelPermalink }}" />
+</div>
+</div>
+<!--</p> -->
 
 {{ if .IsTranslated | and site.Params.footer.show_translations }}
 <div class="powered-by d-flex flex-wrap pb-2 justify-content-center">
@@ -33,6 +48,7 @@
 </p>
 {{ end }}
 
+{{/* Footer text is inserted in config/params.yaml */}}
 {{ with site.Params.footer.text }}
 <p class="powered-by">
   {{ . | markdownify | emojify }}
