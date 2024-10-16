@@ -16,10 +16,10 @@
   translation: Home
 
 - id: close
-  translation: Close
+  translation: Schließen
 
 - id: languages
-  translation: 语言
+  translation: Sprachen
 
 # General
 
@@ -91,7 +91,7 @@
   translation: Kopie
 
 - id: btn_copied
-  translation: Copied
+  translation: Kopiert
 
 - id: btn_download
   translation: Download
@@ -143,7 +143,7 @@
   translation: Nachricht
 
 - id: contact_attachment
-  translation: Attach file
+  translation: Datei anhängen
 
 - id: contact_send
   translation: Senden
@@ -218,7 +218,7 @@
   translation: Projekte
 
 - id: slides
-  translation: Slides
+  translation: Folien
 
 - id: authors
   translation: Authors
@@ -238,7 +238,7 @@
   translation: Nichts gefunden
 
 - id: search_common_queries
-  translation: Common searches
+  translation: Häufige Suchanfragen
 
 # Error 404
 
@@ -262,4 +262,4 @@
 # Published with
 
 - id: published_with
-  translation: Published with {hugoblox} — the free, {repo_link}open source{/repo_link} website builder that empowers creators.
+  translation: Veröffentlicht mit {hugoblox} — dem freien, {repo_link}open source{/repo_link} website builder.
