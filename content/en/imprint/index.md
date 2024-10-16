@@ -3,7 +3,7 @@ title: Impressum
 date: 2024-10-09
 
 type: page
-
+# TODO make sure imprint is the same as on old site (link to UBO imprint)
 ---
 
 Bild von Matthew Henry auf Unsplash https://unsplash.com/de/fotos/zwei-frauen-mit-blick-auf-die-uberwachungskamera-oben-auf-der-struktur-montiert-fPxOowbR6ls
