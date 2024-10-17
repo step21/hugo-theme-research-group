@@ -1,11 +1,9 @@
 ---
-title: "DROPS Projekt nimmt seine Arbeit auf"
-date: 2023-05-30T12:00:00Z
+title: "DROPS Research Project has started"
+date: 2024-10-17T12:00:00Z
 draft: false
-image:
-    caption: 'Foto von <a href="https://unsplash.com/de/@aaronburden">Aaron Burden</a> auf <a href="https://unsplash.com/de/fotos/makrofotografie-eines-wassertropfens-auf-einer-grunen-pflanze-Kp9z6zcUfGw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>'
-    focal_point: "Center"
 ---
+
 
 Anfang diesen Jahres hat das Forschungsprojekt DROPS - Datentreuhand-Modul zum präventiven Schutz vor Identitätsdatenmissbrauch seine Arbeit aufgenommen. Wie Sie auf unseren Seiten sehen können, und wie wir in diesem Blog weiter erläutern möchten, beschäftigen wir uns mit technischen und rechtlichen Lösungen für die datenschutzkonforme Annahme, Verarbeitung und nutzbar-Machung von geleakten Identitätsdaten. So soll eine Plattform geschaffen werden, die Unternehmen und anderen Betroffenen die Möglichkeit gibt sich zu schützen wenn sie wissen das ihre Identitätsdaten abhanden gekommen sind. Diese Plattform soll im Rahmen eines Datentreuhändermoduls realisiert werden, sodass die Daten an zentraler Stelle für z.B eine Meldestelle nach dem dem Hinweisschutzgesetz (HinSchG) verarbeitet werden. Dies wird ermöglicht durch minimal Datenspeicherung, höchste Sicherheitsvorkehrungen bei der Verarbeitung und Nutzung, sowie den richtigen rechtlichen Rahmenbedingungen.
 
@@ -16,8 +14,3 @@ Unser interdisziplinäres Team aus Informatikern, Juristen und Datenschutzexpert
 Wir laden Sie ein, mit uns in Dialog zu treten, Fragen zu stellen und Ihre Gedanken zu teilen. Gemeinsam können wir an Lösungen arbeiten, die nicht nur technisch innovativ sind, sondern auch das Vertrauen der Nutzer in den digitalen Raum stärken.
 
 Bleiben Sie dran und begleiten Sie uns auf dieser faszinierenden Reise durch die Welt der Datensicherheit und des Identitätsschutzes. Willkommen an Bord des DROPS-Logbuchs!
-
-https://www.uni-bonn.de/de/neues/083-2024
-1.  April 2024
-Anonyme Meldestelle für Datenleaks
-+++ PROJEKTSTART-TICKER UNI BONN: IT-Sicherheit +++ 
