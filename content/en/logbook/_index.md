@@ -1,5 +1,5 @@
 ---
-title: Logbuch
+title: Logbook
 
 # Listing view
 view: compact
