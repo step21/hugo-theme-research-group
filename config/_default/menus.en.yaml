@@ -23,6 +23,6 @@ main:
   - name: Contact
     url: contact
     weight: 60
-  - name: Imprint & Legal
-    url: imprint
-    weight: 70
+  #- name: Imprint & Legal
+  #  url: imprint
+  #  weight: 70
