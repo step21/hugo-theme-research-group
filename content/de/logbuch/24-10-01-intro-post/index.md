@@ -1,5 +1,5 @@
 ---
-title: "DROPS Projekt nimmt seine Arbeit auf"
+title: "DROPS Projekt startet"
 date: 2023-05-30T12:00:00Z
 draft: false
 image:
