@@ -43,7 +43,7 @@ links:
 #  url: http://example.org
 #  url_pdf: content/de/veroeffentlichungen/preprint/BMBF_Vernetzungstreffen_DINA0_Poster.pdf
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_poster: 'content/de/veroeffentlichungen/preprint/BMBF_Vernetzungstreffen_DINA0_Poster.pdf'
+# url_poster: 'content/de/veroeffentlichungen/preprint/BMBF_Vernetzungstreffen_DINA0_Poster.pdf'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
