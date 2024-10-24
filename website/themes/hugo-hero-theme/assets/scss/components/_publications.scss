@@ -1,0 +1,18 @@
+.publications {
+    .publication-row {
+        margin-bottom: 1em;
+    }
+    .publication-title a{
+        font-size: .9em;
+    }
+    .publication-authors {
+        font-style: italic;
+        margin-bottom: 0.5rem;
+    }
+    .publication-information{
+        span {
+            font-weight: 800;
+        }
+    }
+}
+

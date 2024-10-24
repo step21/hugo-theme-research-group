@@ -1,0 +1,12 @@
+<div class='header header-absolute'>
+  <div class="container">
+    <div class="logo">
+        <a href="{{ .Site.BaseURL }}"><img alt="{{ .Site.Title }}" src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" /><span>{{ .Site.Title }}</span></a>
+    </div>
+    <div class="logo-mobile">
+        <a href="{{ .Site.BaseURL }}"><img alt="{{ .Site.Title }}" src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" /></a>
+    </div>
+    {{ partial "main-menu.html" . }}
+    {{ partial "hamburger.html" . }}
+  </div>
+</div>
