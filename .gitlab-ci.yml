@@ -9,13 +9,11 @@ building:
     GIT_SUBMODULE_STRATEGY: recursive
   stage: building
   script:
-  - cd ./website
-  - hugo
-  - touch public/timestamp
-  - date +%s > public/timestamp
+    - hugo
+    - touch public/timestamp
+    - date +%s public/timestamp
   artifacts:
     paths:
-    - website/public
+      - public
   rules:
   - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-
