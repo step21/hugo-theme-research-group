@@ -1,6 +1,7 @@
 
 # Created by https://www.toptal.com/developers/gitignore/api/hugo,sass
 # Edit at https://www.toptal.com/developers/gitignore?templates=hugo,sass
+.DS_Store
 
 ### Hugo ###
 # Generated files by hugo

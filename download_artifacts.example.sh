@@ -17,7 +17,7 @@ unzip -q artifacts.zip
 
 T_NEW=`date +%s`
 T_EX=0
-if [ -f "public/timestamp" ]; then
+if [ -f "website/public/timestamp" ]; then
         T_NEW=`cat website/public/timestamp`
 fi
 if [ -f "$PATHTODIR/timestamp" ]; then
@@ -25,13 +25,13 @@ if [ -f "$PATHTODIR/timestamp" ]; then
 fi
 
 if [ "$T_NEW" -gt "$T_EX" ] || [ ! -d "$PATHTODIR/html" ]; then
-        if [ -d "public" ]; then
+        if [ -d "website/public" ]; then
                 mv $PATHTODIR/html old
                 mv website/public $PATHTODIR/html
                 mv $PATHTODIR/html/timestamp $PATHTODIR/
                 rm -Rf old
         else
-                echo "public folder not found"
+                echo "website/public folder not found"
         fi
 fi
 
