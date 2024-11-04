@@ -9,7 +9,7 @@ image:
 
 ### Worum geht es?
 
-Für die Arbeit von Sicherheitsforschenden sind die rechtlichen Regelungen über das Prüfen von technischen Systemen auf Sicherheitslücken von großer Bedeutung, da diese möglicherweise ihre Arbeit einschränken kann oder sogar starke persönliche Konsequenzen nach sich ziehen kann. Für das Projekt DROPS ist das konkret relevant, da eine Zielsetzung ist Hinweisgeber (Whistleblower) und andere mögliche Datenliefernde so gut wie möglich zu schützen, damit vor Verfolgung von betroffenen Unternehmen oder Strafverfolgungsbehörden geschützt sind.
+Für die Arbeit von Sicherheitsforschenden sind die rechtlichen Regelungen über das Prüfen von technischen Systemen auf Sicherheitslücken von großer Bedeutung, da diese möglicherweise ihre Arbeit einschränken kann oder sogar starke persönliche Konsequenzen nach sich ziehen kann. So wurde schon öfter von betroffenen Unternehmen Strafanzeige gestellt, anstatt sich für die Hilfe erkenntlich zu zeigen. (Beispiel: [CDU vs Lilith Wittmann](https://www.heise.de/news/Verfahren-gegen-Lilith-Wittmann-eingestellt-weil-CDU-connect-ungeschuetzt-war-6194222.html)) Dabei geht es oft darum, ob auch schon  Für das Projekt DROPS ist das konkret relevant, da eine Zielsetzung ist Hinweisgeber (Whistleblower) und andere mögliche Datenliefernde so gut wie möglich zu schützen, damit vor Verfolgung von betroffenen Unternehmen oder Strafverfolgungsbehörden geschützt sind.
 
 ### Der Hackerparagraph im Deutschen Strafrecht
 
@@ -26,7 +26,7 @@ Ferner wird argumentiert, dass selbst wenn ein Tool zu kriminellen Zwecken herge
 
 ### Zivilgesellschaftliche Reaktionen
 
-Als Reaktion auf den Gesetzentwurf hingegen kritisieren der Chaos Computer Club (CCC) durch seinen Sprecher Dirk Engling und Lilith Wittmann (ein unabhängige Sicherheitsforscherin) den Entwurf, da er nicht weit genug gehe. Konkret merkte Wittmann an, das die mögliche Feststellung der Intention in Verfahren wie ihrem möglicherweise oft erst vor Gericht passiert, und damit dann große Unsicherheit und mögliche Kosten durch ein Strafverfahren weiterhin bestehen bleiben. Dirk Engling kritisiert weiterhin, das nur offensichtlich harmlose Untersuchungen entkriminalisiert werden, berufliche Sicherheitsforschende damit aber weiterhin in einer Grauzone blieben.
+Als Reaktion auf den Gesetzentwurf hingegen kritisieren der Chaos Computer Club (CCC) durch [seinen Sprecher Dirk Engling](https://netzpolitik.org/2024/hacker-paragrafen-wir-veroeffentlichen-den-gesetzentwurf-zum-computerstrafrecht/) und Lilith Wittmann (eine unabhängige Sicherheitsforscherin) den Entwurf, da er nicht weit genug gehe. Konkret merkte Wittmann an, das die mögliche Feststellung der Intention in Verfahren wie ihrem möglicherweise oft erst vor Gericht passiert, und damit dann große Unsicherheit und mögliche Kosten durch ein Strafverfahren weiterhin bestehen bleiben. Dirk Engling kritisiert weiterhin, das nur offensichtlich harmlose Untersuchungen entkriminalisiert werden, berufliche Sicherheitsforschende damit aber weiterhin in einer Grauzone blieben.
 
 ### Erste Einschätzung im Rahmen des Projekts DROPS
 
