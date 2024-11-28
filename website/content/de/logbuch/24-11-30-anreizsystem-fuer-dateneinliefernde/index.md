@@ -1,6 +1,5 @@
 ---
 title: "Das Anreizsystem für Dateneinliefernde"
-# besseren Titel
 date: 2024-11-30T12:00:00Z
 draft: true
 image:
