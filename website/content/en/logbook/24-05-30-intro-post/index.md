@@ -1,6 +1,6 @@
 ---
 title: "DROPS Research Project has started"
-date: 2024-10-17T12:00:00Z
+date: 2024-05-30T12:00:00Z
 draft: false
 image:
     caption: 'Foto von <a href="https://unsplash.com/de/@aaronburden">Aaron Burden</a> auf <a href="https://unsplash.com/de/fotos/makrofotografie-eines-wassertropfens-auf-einer-grunen-pflanze-Kp9z6zcUfGw">Unsplash</a>'
