@@ -1,7 +1,7 @@
 ---
 title: "Das Anreizsystem für Dateneinliefernde"
-date: 2024-11-30T12:00:00Z
-draft: true
+date: 2024-12-16T12:00:00Z
+draft: false
 image:
     caption: 'Foto von <a href="https://unsplash.com/de/@glencarrie">Glen Carrie</a> auf <a href="https://unsplash.com/de/fotos/verschiedene-sussigkeiten-xBTnaTgleQE">Unsplash</a>'
     focal_point: "Center"
