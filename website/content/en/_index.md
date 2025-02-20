@@ -37,7 +37,7 @@ sections:
       text: "The project will conceptualize and test processes and tools that enable the extraction of personal identifiable information (PII) from uploaded datasets and their transformation into a suitable schema and format. The objective here is the development of an approach which can be applied in different scenarios. This includes considering interfaces to existing project spin-offs (e.g. identeco GmbH & Co KG) early on, to consider potential follow on usage early on. Because of the different nature of various data leaks, the supported data types should be as heterogeneous as possible. The effective processing of the identified information is made possible through the development and usage of a suitable data scheme. The extracted information is processed in accordance with data privacy regulations and is further used to allow comparison with existing datasets.\n
   
       The objective is to recognize partial or complete overlap with existing datasets and to achieve a qualified statement about the source of the analyzed dataset in full or of its parts. Predefined threshold values and indicators allow the generation of specific warning messages for affected consumers and companies.
-      ![DROPS Konzept](DROPS_vector_Updated2_mit_Buergerinnen.png 'DROPS Concept')  "
+      ![DROPS Konzept](DROPS_vector_Updated2_mit_BuergerInnen.png 'DROPS Concept')  "
   
   - block: markdown
     content:
